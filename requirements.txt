@@ -1,0 +1,15 @@
+# Core ML stack
+tensorflow==2.10.0
+keras==2.10.0
+tensorboard==2.10.1
+
+# Protobuf pinned for TF 2.10 compatibility
+protobuf==3.19.6
+
+# Streamlit pinned to match protobuf 3.19.x
+streamlit==1.15.2
+
+# Common utilities
+numpy==1.23.5
+pillow==9.5.0
+joblib==1.2.0
